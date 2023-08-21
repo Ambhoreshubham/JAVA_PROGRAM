@@ -1,0 +1,23 @@
+package shubham;
+import java.util.Scanner;
+public class simpleprogram {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner xyz=new Scanner(System.in);
+	int no12;
+   	 boolean flag=false;
+   	 System.out.println("Enter the number");
+   	 no12=xyz.nextInt();
+   	 for(int i1=1;i1<no12;i1++) {
+   		 if(no12%i1==0) {
+   			 flag=true;
+   			 break;
+   		 }
+   	 }if(flag) {
+   		 System.out.printf("number is prime");
+   	 }
+   	 else {
+   		 System.out.printf("number not prime");
+   	 }
+	    }
+	}
