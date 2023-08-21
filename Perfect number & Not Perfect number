@@ -1,0 +1,21 @@
+package shubham;
+import java.util.Scanner;
+public class perfectno {
+	public static void main(String[] args) {
+		Scanner xyz=new Scanner(System.in);
+     int no1111,sum11=0;
+        	 System.out.println("Enter the number");
+        	 no1111=xyz.nextInt();
+        	 for(i=1;i<no1111;i++)
+        	 {
+        		 if(no1111%i==0) {
+        			 sum11=sum11+i;
+        		 }
+        	 }
+        	 if(sum11==no1111) {
+        		 System.out.println("Number is perfect");
+        	 }else {
+        		 System.out.println("no perfect");
+        	 }
+}
+}
